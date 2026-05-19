@@ -1,0 +1,26 @@
+# Local Environment Secrets
+.env
+.env.local
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+
+# Database files
+*.db
+*.sqlite3
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Streamlit Local Cache
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
